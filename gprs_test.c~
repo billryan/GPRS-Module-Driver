@@ -56,10 +56,10 @@ uchar xdata buffer[SERIAL_MAX];	//从串口接收的数据
 /**
  * 需要使用的常量数据
  */
-uchar code *IP_PHONE = "";	//设置IP输入手机号
+uchar code *IP_PHONE = "15091546852";	//设置IP输入手机号
 uchar code *BP = "##11011110#10001001#10001000#11011110#11001000#00000000#11111011#01111110#";
 uchar code *BP1 = "##10001001#11011110#10001000#11011110#11001000#00000000#11111011#01111110#";
-uchar code *INFO = "AT+CNUM: \"BillRyan\",\"13800000000\",129";
+uchar code *INFO = "AT+CNUM: \"BillRyan\",\"15109221087\",129";
 
 void delayms(uint xms);		//延时函数（毫秒级）
 void serial_init(void);		//串口初始化
