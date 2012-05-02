@@ -49,9 +49,6 @@ uchar idata font[NUM_MAX];	//字形码数组
 
 /*buffer[100]用来存储串口发送的数据，com_dat用来记录串口发送的个数*/
 uchar xdata buffer[SERIAL_MAX];	//从串口接收的数据
-/*
- * 所要发送的AT指令
- */
 
 /**
  * 需要使用的常量数据
